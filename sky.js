@@ -1,4 +1,3 @@
-<script>
 const dialogBackdrop = document.getElementById('dialogBackdrop');
 const myDialog = document.getElementById('myDialog');
 const dialogButtonsContainer = document.getElementById('dialogButtonsContainer');
@@ -63,5 +62,5 @@ mj.addEventListener('click', () => {
     ]; 
 openDialogAndAddButtons(buttons, '选择面具');
 });
-</script>
+
 
