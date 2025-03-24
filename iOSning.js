@@ -344,7 +344,6 @@ xz.addEventListener('click', () => {
 openDialogAndAddButtons(buttons, '选择鞋子');
 });
 dp.addEventListener('click', () => {
-    好的，根据你提供的新数据，我会将这些数据对应的操作添加到 const buttons 数组中按钮的 action 函数里，同时把 h5gg.setValue 函数中的第二个参数从 fx 改为 dp，并保持使用 function 形式的函数表达式。以下是更新后的代码：
 const buttons = [
     { text: '永久无翼', action: function() {
             h5gg.setValue(dp, 0, 'I32');
