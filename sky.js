@@ -2,7 +2,7 @@ const dialogBackdrop = document.getElementById('dialogBackdrop');
 const myDialog = document.getElementById('myDialog');
 const dialogButtonsContainer = document.getElementById('dialogButtonsContainer');
 function openDialogAndAddButtons(buttonList,   dialogTitle) {
-    dialogBackdrop.style.display = 'block';
+dialogBackdrop.style.display = 'block';
     myDialog.style.display = 'block';
     dialogButtonsContainer.innerHTML = '';
     const dialogTitleElement = myDialog.querySelector('.dialog-title');
