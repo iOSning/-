@@ -692,8 +692,7 @@ const buttons = [
     { text: '匠人护裙', action: function() {
        h5gg.setValue(dp, 1689650369, 'I32');
 			}
-		},
-	  { text: '半袖袍子', action: function() {
+    { text: '半袖袍子', action: function() {
             h5gg.setValue(dp, -994628895, 'I32');
         } 
     },
