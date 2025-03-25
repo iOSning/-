@@ -1238,4 +1238,4 @@ const buttons = [
     }
 ];
 openDialogAndAddButtons(buttons, '变成先祖');
-});
+};
